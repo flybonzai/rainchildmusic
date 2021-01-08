@@ -1,0 +1,7 @@
+.Logo {
+    font-family: logoFont, sans-serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}

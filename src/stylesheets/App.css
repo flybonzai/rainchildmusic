@@ -1,12 +1,12 @@
 @font-face {
   font-family: logoFont;
-  src: url('../assets/assa.otf')
+  src: url('../assets/fonts/assa.otf')
 }
 
 .App {
   height: 100vh;
   width: 100vw;
-  background-image: url('../assets/images/rainchild-background.jpg');
+  background-image: url('../assets/images/rainy3.jpg');
   background-size: cover;
   display: flex;
   justify-content: center;

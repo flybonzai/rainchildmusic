@@ -4,11 +4,10 @@
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
-  border-top: 2px solid rgb(14, 14, 7);
-  border-bottom: 2px solid rgb(14, 14, 7);
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .Navbar a {
   margin: 10px;
-  margin-bottom: 20px;
 }

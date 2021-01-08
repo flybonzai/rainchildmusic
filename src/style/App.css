@@ -1,0 +1,16 @@
+@font-face {
+    font-family: logoFont;
+    src: url('../assets/assa.otf')
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/rainchild-background.jpg');
+    background-size: cover;
+}
+
+.Header {
+    font-family: logoFont, sans-serif;
+    font-size: 50px;
+}

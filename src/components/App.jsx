@@ -1,10 +1,11 @@
 import React from 'react';
+import '../style/App.css';
 // https://medium.com/javascript-in-plain-english/to-beginners-moving-away-from-create-react-app-f597413181e
-
+// TODO add home, blog, music, about, and shop components
 const App = () => {
     return (
-        <div>
-            <h1>My React App</h1>
+        <div className='App'>
+            <div className='Header'>RAINCHILD</div>
         </div>
     )
 }

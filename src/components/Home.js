@@ -10,10 +10,12 @@ const Home = (props) => {
       <Header/>
       <div className="ArtistPhotoAndDesc">
         <span className="ArtistShortDesc">
-          The best thing I've ever seen.  This kid has a future.
+          A shirtful of sand, and organs created from stone...
+          <br/>
+          Here's to finding a way back home
           <br/>
           <br/>
-          - <em>Something Times</em>
+          - <em>Bones</em>
         </span>
         <img src={photoImg} alt="Artist photo"/>
       </div>

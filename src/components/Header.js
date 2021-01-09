@@ -1,13 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
-import '../stylesheets/Header.css';
+import "../stylesheets/Header.css";
 
 const Header = (props) => {
   return (
-    <div className={"Header"}>
-      <div className={"Logo"}><span>RAINCHILD</span></div>
+    <header className={"header"}>
+      <div className={"logo"}>
+        <span>RAINCHILD</span>
+      </div>
       <Navbar />
-    </div>
+    </header>
   );
 };
 

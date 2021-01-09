@@ -1,13 +1,13 @@
-import React from 'react'
-import Header from './Header'
+import React from "react";
+import Header from "./Header";
 
 const Store = (props) => {
   return (
-    <div className={'Content'} id={'Store'}>
+    <div className={"content"} id={"store"}>
       <Header />
       Hello from Store
     </div>
-  )
-}
+  );
+};
 
-export default Store
+export default Store;

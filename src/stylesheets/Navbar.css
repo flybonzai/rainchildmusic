@@ -1,4 +1,4 @@
-.Navbar {
+.navbar {
   font-family: logoFont, sans-serif;
   font-size: 30px;
   display: flex;
@@ -8,6 +8,6 @@
   border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-.Navbar a {
+.navbar a {
   margin: 10px;
 }

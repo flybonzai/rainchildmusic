@@ -3,20 +3,7 @@
   src: url('../assets/fonts/whatever_it_takes.ttf');
 }
 
-.Home {
-  background: none;
-}
-
-.ArtistShortDesc {
-  font-family: whatever, sans-serif;
-  font-size: 45px;
-  margin: 20px;
-  line-height: 1.2;
-  align-self: flex-start;
-  color: white;
-}
-
-.ArtistPhotoAndDesc {
+.home-page-photo {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faTwitterSquare,
@@ -9,7 +9,7 @@ import "../stylesheets/Footer.css";
 const Footer = (props) => {
   return (
     <footer className={"footer"}>
-      <div className={"social-media-links"}>
+      <nav className={"social-media-links"}>
         <FontAwesomeIcon
           className={"link-icon"}
           icon={faFacebook}
@@ -22,6 +22,9 @@ const Footer = (props) => {
           size={"3x"}
           color={"white"}
         />
+      </nav>
+      <div className={"copyright-info"}>
+        &copy; Rainchild Music 2020
       </div>
     </footer>
   );

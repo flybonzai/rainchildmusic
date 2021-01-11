@@ -6,7 +6,7 @@ import Blogs from "../data/Blogs";
 
 const Blog = (props) => {
   const createBlogs = (blogs) => {
-    return blogs.map(blog => <BlogItem blogData={blog} />);
+    return blogs.map(blog => <BlogItem key={blog.id} blogData={blog} />);
   };
 
   return (

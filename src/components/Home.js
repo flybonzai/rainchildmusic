@@ -23,6 +23,13 @@ const Home = (props) => {
           </div>
           <img src={"https://source.unsplash.com/random/600x400"} alt="Artist photo" />
         </section>
+        <section className="subscribe-form">
+          <form>
+            <label for="email">Subscribe for updates</label>
+            <br />
+            <input type="email" id="email" placeholder="Email" formMethod="post"/>
+          </form>
+        </section>
       </div>
       <Footer />
     </div>

@@ -30,3 +30,13 @@
   justify-content: center;
   line-height: 1.6;
 }
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-form label {
+  color: white;
+}

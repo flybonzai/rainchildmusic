@@ -28,6 +28,7 @@ const Home = (props) => {
             <label for="email">Subscribe for updates</label>
             <br />
             <input type="email" id="email" placeholder="Email" formMethod="post"/>
+            <button type="submit">Submit</button>
           </form>
         </section>
       </div>

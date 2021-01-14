@@ -2,7 +2,6 @@ import React from "react";
 import "../stylesheets/Home.css";
 import Header from "./Header";
 import Footer from "./Footer";
-import photoImg from "../assets/images/artist_photo.jpg";
 
 const Home = (props) => {
   return (
@@ -10,7 +9,19 @@ const Home = (props) => {
       <div>
         <Header />
         <section className="home-page-photo">
-          <img src={photoImg} alt="Artist photo" />
+          {/*TODO add a little caption of some sort to the left*/}
+          <div className={"short-description"}>
+            <p className={"short-description-text"}>
+              "Their music sounds like the heavens parted and God sent down his angels in melodious form.
+              <br />
+              It has a soul-funk-swing vibe to it that is hard to stop listining to."
+              <br />
+            </p>
+            <span className={"short-description-attribution"}>
+            - The Cincinnati Music Critic
+            </span>
+          </div>
+          <img src={"https://source.unsplash.com/random/600x400"} alt="Artist photo" />
         </section>
       </div>
       <Footer />

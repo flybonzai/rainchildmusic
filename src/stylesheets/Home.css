@@ -3,9 +3,30 @@
   src: url('../assets/fonts/whatever_it_takes.ttf');
 }
 
+
 .home-page-photo {
   display: flex;
+  height: 100%;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  margin: 40px 7px 7px 7px;
+  margin-top: 10px;
+}
+
+.home-page-photo img {
+  height: 100%;
+  width: 60%;
+}
+
+.short-description {
+  margin: 7px;
+  font-family: josefin slab,serif;;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  height: 100%;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.6;
 }

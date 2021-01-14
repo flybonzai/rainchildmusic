@@ -5,11 +5,10 @@ const Show = (props) => {
   const className = `show-${showData.id}`;
 
   return (
-    <article className={className}>
-      <p>{showData.date}</p>
-      <p>{showData.title}</p>
-      <p>{showData.content}</p>
-    </article>
+    <tr className={className}>
+      <td>{showData.date}</td>
+      <td>{showData.description}</td>
+    </tr>
   );
 };
 

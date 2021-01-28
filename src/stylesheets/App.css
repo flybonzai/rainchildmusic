@@ -13,8 +13,10 @@
 }
 
 .content {
-  max-width: 60%;
-  background-color: rgba(0, 0, 0, 0.5);
+  /*max-width: 60%;*/
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  width: 60%;
+  background-color: rgba(34, 33, 33, 1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

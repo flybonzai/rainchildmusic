@@ -5,7 +5,7 @@
 
 .app{
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   background-image: url('../assets/images/rainchild-background.jpg');
   background-size: cover;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 .content {
-  width: 60%;
+  max-width: 60%;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;

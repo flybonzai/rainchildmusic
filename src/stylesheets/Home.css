@@ -18,7 +18,7 @@
   width: 60%;
 }
 
-.short-description {
+.home-page-content {
   margin: 7px;
   font-family: josefin slab,serif;;
   color: white;
@@ -27,13 +27,13 @@
   height: 100%;
   width: 40%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   line-height: 1.6;
 }
 
 .subscribe-form {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 

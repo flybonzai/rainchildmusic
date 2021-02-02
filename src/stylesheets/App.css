@@ -7,6 +7,7 @@
     height: 100vh;
     max-width: 100vw;
     background-image: url('../assets/images/brick.jpg');
+    background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     display: flex;
     justify-content: center;

@@ -20,24 +20,22 @@ const Home = (props) => {
                 - The Cincinnati Music Critic
               </span>
             </p>
-            <section className="subscribe-form">
-              <form>
-                <label htmlFor="email">Subscribe for updates</label>
-                <br />
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="Email"
-                  formMethod="post"
-                />
-                <button type="submit">Submit</button>
-              </form>
-            </section>
           </div>
-          <img
-            src={rockerPhoto}
-            alt="Artist photo"
-          />
+          <img src={rockerPhoto} alt="Artist photo" />
+        </section>
+        <section className="subscribe-form">
+          <form>
+            <label htmlFor="email">Subscribe for updates</label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              formMethod="post"
+            />
+            <br />
+            <button type="submit">Submit</button>
+          </form>
         </section>
       </div>
       <Footer />

@@ -23,20 +23,6 @@ const Home = (props) => {
           </div>
           <img src={rockerPhoto} alt="Artist photo" />
         </section>
-        <section className="subscribe-form">
-          <form>
-            <label htmlFor="email">Subscribe for updates</label>
-            <br />
-            <input
-              type="email"
-              id="email"
-              placeholder="Email"
-              formMethod="post"
-            />
-            <br />
-            <button type="submit">Submit</button>
-          </form>
-        </section>
       </div>
       <Footer />
     </div>

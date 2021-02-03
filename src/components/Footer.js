@@ -1,5 +1,5 @@
 import React from "react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faTwitterSquare,
@@ -9,23 +9,37 @@ import "../stylesheets/Footer.css";
 const Footer = (props) => {
   return (
     <footer className={"footer"}>
-      <nav className={"social-media-links"}>
-        <FontAwesomeIcon
-          className={"link-icon"}
-          icon={faFacebook}
-          size={"3x"}
-          color={"white"}
-        />
-        <FontAwesomeIcon
-          className={"link-icon"}
-          icon={faTwitterSquare}
-          size={"3x"}
-          color={"white"}
-        />
-      </nav>
-      <div className={"copyright-info"}>
-        &copy; Rainchild Music 2020
-      </div>
+      <section className="subscribe-form">
+        <form>
+          <label htmlFor="email">Subscribe for updates</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            formMethod="post"
+          />
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section className={"links"}>
+        <nav className={"social-media-links"}>
+          <FontAwesomeIcon
+            className={"link-icon"}
+            icon={faFacebook}
+            size={"3x"}
+            color={"white"}
+          />
+          <FontAwesomeIcon
+            className={"link-icon"}
+            icon={faTwitterSquare}
+            size={"3x"}
+            color={"white"}
+          />
+        </nav>
+      <div className={"copyright-info"}>&copy; Rainchild Music 2020</div>
+      </section>
     </footer>
   );
 };

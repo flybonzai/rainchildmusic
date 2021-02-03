@@ -1,4 +1,5 @@
 import React from "react";
+import rockerPhoto from "../assets/images/rocker.jpg";
 import "../stylesheets/Home.css";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -14,9 +15,6 @@ const Home = (props) => {
               "Their music sounds like the heavens parted and God sent down his
               angels in melodious form.
               <br />
-              It has a soul-funk-swing vibe to it that is hard to stop listening
-              to."
-              <br />
               <br />
               <span className={"short-description-attribution"}>
                 - The Cincinnati Music Critic
@@ -24,7 +22,7 @@ const Home = (props) => {
             </p>
             <section className="subscribe-form">
               <form>
-                <label for="email">Subscribe for updates</label>
+                <label htmlFor="email">Subscribe for updates</label>
                 <br />
                 <input
                   type="email"
@@ -37,7 +35,7 @@ const Home = (props) => {
             </section>
           </div>
           <img
-            src={"https://source.unsplash.com/random/600x400"}
+            src={rockerPhoto}
             alt="Artist photo"
           />
         </section>

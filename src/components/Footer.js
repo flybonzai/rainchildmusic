@@ -19,7 +19,6 @@ const Footer = (props) => {
             placeholder="Email"
             formMethod="post"
           />
-          <br />
           <button type="submit">Submit</button>
         </form>
       </section>

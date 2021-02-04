@@ -1,58 +1,61 @@
 .footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .copyright-info {
-  color: white;
-  display: flex;
-  justify-content: center;
-  margin: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
 .links {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 }
 
 .social-media-links {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding: 0 20px 5px 0;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding: 0 20px 5px 0;
 }
 
 .link-icon {
-  margin-left: 10px;
-  margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .subscribe-form {
-  font-family: 'Nothing You Could Do', sans-serif;;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+    font-family: 'Nothing You Could Do', sans-serif;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 30%;
 }
 
 .subscribe-form label {
-  color: white;
-  font-size: 20px;
-  font-family: Pangolin, serif;
+    color: white;
+    font-size: 20px;
+    font-family: Pangolin, serif;
 }
 
 .subscribe-form form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .subscribe-form button {
-  width: 5em;
-  font-size: 15px;
-  background-color: rgb(20, 24, 41);
-  color: white;
-  border-radius: 3px;
-  font-family: Pangolin, serif;
+    width: 5em;
+    font-size: 15px;
+    background-color: rgb(20, 24, 41);
+    color: white;
+    border-radius: 3px;
+    font-family: Pangolin, serif;
 }

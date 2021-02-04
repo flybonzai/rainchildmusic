@@ -2,59 +2,14 @@
   display: flex;
   max-height: 80%;
   max-width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 10px 10px 0 0;
 }
 
 .home-page-photo img {
   height: auto;
-  max-width: 60%;
+  max-width: 100%;
   align-self: flex-end;
 }
 
-.home-page-content {
-  margin: 7px;
-  font-family: 'Nothing You Could Do', sans-serif;;
-  color: white;
-  font-size: 25px;
-  display: flex;
-  height: 100%;
-  max-width: 40%;
-  flex-direction: column;
-  justify-content: space-between;
-  line-height: 1.6;
-}
-
-.links {
-  align-self: center;
-}
-
-.subscribe-form {
-  display: flex;
-  max-width: 100%;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 20px;
-}
-
-.subscribe-form label {
-  color: white;
-  font-size: 20px;
-  font-family: Pangolin, serif;
-}
-
-.subscribe-form form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.subscribe-form button {
-  width: 5em;
-  font-size: 15px;
-  background-color: rgb(20, 24, 41);
-  color: white;
-  border-radius: 3px;
-  font-family: Pangolin, serif;
-}

@@ -10,17 +10,6 @@ const Home = (props) => {
       <div>
         <Header />
         <section className="home-page-photo">
-          <div className={"home-page-content"}>
-            <p className={"short-description-text"}>
-              "Their music sounds like the heavens parted and God sent down his
-              angels in melodious form.
-              <br />
-              <br />
-              <span className={"short-description-attribution"}>
-                - The Cincinnati Music Critic
-              </span>
-            </p>
-          </div>
           <img src={rockerPhoto} alt="Artist photo" />
         </section>
       </div>

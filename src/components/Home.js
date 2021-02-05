@@ -7,13 +7,11 @@ import Footer from "./Footer";
 const Home = (props) => {
   return (
     <div className={"content"} id={"home"}>
-      <div>
-        <Header />
-        <section className="home-page-photo">
-          <img src={rockerPhoto} alt="Artist photo" />
-        </section>
-      </div>
-      <Footer />
+      <Header/>
+      <section className="home-page-photo">
+        <img src={rockerPhoto} alt="Artist photo"/>
+      </section>
+      <Footer/>
     </div>
   );
 };

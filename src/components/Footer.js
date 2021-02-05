@@ -39,6 +39,8 @@ const Footer = (props) => {
         </nav>
       <div className={"copyright-info"}>&copy; Rainchild Music 2020</div>
       </section>
+      <div className={"right-spacer"}>
+      </div>
     </footer>
   );
 };

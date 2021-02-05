@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .copyright-info {
@@ -41,7 +41,7 @@
 .subscribe-form label {
     color: white;
     font-size: 20px;
-    font-family: Pangolin, serif;
+    font-family: Poppins, sans-serif;
 }
 
 .subscribe-form form {
@@ -57,5 +57,9 @@
     background-color: rgb(20, 24, 41);
     color: white;
     border-radius: 3px;
-    font-family: Pangolin, serif;
+    font-family: Poppins, sans-serif;
+}
+
+.right-spacer {
+    width: 30%;
 }

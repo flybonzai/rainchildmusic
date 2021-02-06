@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     margin: 5px;
+    font-family: Poppins, sans-serif;
 }
 
 .links {
@@ -49,6 +50,10 @@
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 10px;
+}
+
+.subscribe-form input {
+    width: 100%;
 }
 
 .subscribe-form button {

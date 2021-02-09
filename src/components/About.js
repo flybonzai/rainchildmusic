@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheets/About.css";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const About = (props) => {
   return (
@@ -17,6 +18,7 @@ const About = (props) => {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </article>
+      <Footer />
     </div>
   );
 };
